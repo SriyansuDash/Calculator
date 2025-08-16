@@ -116,3 +116,7 @@ h1::after{
 #backspace{
     background: linear-gradient(to right, #ff9a75, #ff9900);
 }
+.operator{
+    background: linear-gradient(to right, #273f3f, #2f5564);
+    color: #fff;
+}
