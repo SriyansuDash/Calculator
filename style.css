@@ -123,6 +123,6 @@ h1::after{
     color: #fff;
 }
 .operator:active{
-    color: darkorchid;
-    font-size: 40px;
+    box-shadow: 0 0 4pc #f6fbfd;
+    transform: scale(1.1);
 }
