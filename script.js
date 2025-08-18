@@ -3,8 +3,8 @@ let buttons = document.querySelectorAll('button');
 let currentInput = "";
 
 buttons.forEach((button) => {
-    button.addEventListener('click', (e) => {
-        const buttonText = e.target.innerHTML;
+    button.addEventListener('click', (clk) => {
+        const buttonText = clk.target.innerHTML;
 
         if (buttonText === '=') {
             try {
